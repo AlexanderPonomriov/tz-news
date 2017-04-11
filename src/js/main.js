@@ -137,6 +137,10 @@
 })(jQuery);
 
 
+$(document).on('click', '.header-calc .calc-btn', function(){
 
+    localStorage["calcHistory"] = location.href;
+
+});
 
 
